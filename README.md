@@ -7,9 +7,7 @@ To implement the backtesting using the EWMA method for computing $\text{VaR}_{10
 
 Let's start by computing the EWMA variance for the entire dataset using the given formula:
 
-$
-\sigma_{t+1|t}^{2} = \lambda \sigma^{2}_{t|t-1} + (1-\lambda)r_{t}^{2}
-$
+$\sigma_{t+1|t}^{2} = \lambda \sigma^{2}_{t|t-1} + (1-\lambda)r_{t}^{2}$
 
 Where:
 
